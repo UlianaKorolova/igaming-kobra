@@ -65,6 +65,7 @@
             background: #757575;
         }
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" />
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
@@ -481,6 +482,72 @@
                     </div>
                 </div>
             </div>
+            <div id="videos" class="section_grow">
+                <div class="padding-global">
+                    <div class="container">
+                        <div class="growth-wrapper videos-wrapper">
+                            <div class="card-wrapper video-card-wrapper" style="display: flex; flex-direction: row;">
+                                <div class="video-title-column">
+                                    <div class="section-title video-section-title"
+                                        style="display: flex; flex-direction: column; max-width: 100%;">
+                                        <h2 class="section-headline video-section-headline">Thumb-Stopping Content in
+                                            Action</h2>
+                                        <p class="hero-desc-3 video-section-desc"
+                                            style="margin-top: -10px; color: #929292;">Data-driven
+                                            creatives, millions of impressions. Explore the
+                                            short-form video strategies we use to scale iGaming brands organically. 
+                                            <br><br><span class="tap_on_video">(tap on video to play)</span>
+                                        </p>
+                                        <a data-wf--button-cta--variant="base" style="margin-top: 20px;"
+                                            data-w-id="c3ce6ac0-cc41-4492-e193-656d64efe226" href="#"
+                                            class="button-cta w-inline-block button-open-modal">
+                                            <p class="link-text">Get Your Free Growth Strategy</p>
+                                            <div class="arrow-wrapper"><img loading="lazy" src="images/arrow.svg" alt=""
+                                                    class="image-2" /><img loading="lazy" src="images/arrow.svg" alt=""
+                                                    class="image-2" /></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="video-swiper-column" style="position: relative; overflow: visible;">
+                                    <div class="arrow-wrapper-swipper"><img loading="lazy" src="images/arrow_left.svg"
+                                            alt="" class="arrow_button1" /><img loading="lazy"
+                                            src="images/arrow_left.svg" alt="" class="arrow_button2" /></div>
+                                    <div class="videos-swiper swiper">
+                                        <div class="swiper-wrapper" data-animate="stagger">
+                                            <div class="swiper-slide">
+                                                <video playsinline preload="metadata" loading="lazy" class="video-slide">
+                                                    <source src="/kobraVideos/3.mp4" type="video/mp4" />
+                                                </video>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <video playsinline preload="metadata" loading="lazy" class="video-slide">
+                                                    <source src="/kobraVideos/5.mp4" type="video/mp4" />
+                                                </video>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <video playsinline preload="metadata"loading="lazy" class="video-slide">
+                                                    <source src="/kobraVideos/4.mp4" type="video/mp4" />
+                                                </video>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <video playsinline preload="metadata" loading="lazy" class="video-slide">
+                                                    <source src="/kobraVideos/1.mp4" type="video/mp4" />
+                                                </video>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <video playsinline preload="metadata"loading="lazy" class="video-slide">
+                                                    <source src="/kobraVideos/2.mp4" type="video/mp4" />
+                                                </video>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="section_cta">
                 <div class="padding-global">
                     <div class="container">
@@ -817,22 +884,27 @@
                 <div class="quiz-card-wrapper">
                     <div class="quiz-title-wrapper">
                         <h3 class="quiz-card-title">Request Full Case Studies</h3>
-                        <p class="quiz-card-desc">Enter your email and we will send the full case studies straight to your inbox.</p>
+                        <p class="quiz-card-desc">Enter your email and we will send the full case studies straight to
+                            your inbox.</p>
                     </div>
                 </div>
                 <div class="cta-quiz-form w-form">
                     <div class="form-input-wrapper">
                         <label for="request-email" class="form-label">Email</label>
-                        <input type="email" class="form-input" id="request-email" name="Email" required placeholder="you@example.com">
+                        <input type="email" class="form-input" id="request-email" name="Email" required
+                            placeholder="you@example.com">
                     </div>
                 </div>
                 <div class="quiz-button-wrapper">
                     <button id="request_case_studies_button" type="button" class="button-cta-quiz w-inline-block">
                         <p class="link-text">Request</p>
-                        <div class="arrow-wrapper"><img src="images/arrow.svg" loading="lazy" alt="" class="image-2" /><img src="images/arrow.svg" loading="lazy" alt="" class="image-2" /></div>
+                        <div class="arrow-wrapper"><img src="images/arrow.svg" loading="lazy" alt=""
+                                class="image-2" /><img src="images/arrow.svg" loading="lazy" alt="" class="image-2" />
+                        </div>
                     </button>
                 </div>
-                <a href="#" class="close-button w-inline-block"><img src="images/x.svg" loading="lazy" alt="x" class="close-button" /></a>
+                <a href="#" class="close-button w-inline-block"><img src="images/x.svg" loading="lazy" alt="x"
+                        class="close-button" /></a>
             </div>
         </form>
     </div>
@@ -845,6 +917,49 @@
     <script src="js/scrolltrigger.min.js" type="text/javascript"></script>
     <script src="./js/formSubmit.js"></script>
     <script src="./js/gsapStagger.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        // Selektujemo sve videe na stranici koji imaju klasu 'swiper-video'
+        const allVideos = document.querySelectorAll('.video-slide');
+
+        allVideos.forEach(video => {
+            video.addEventListener('click', function () {
+                if (video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            new Swiper('.videos-swiper', {
+                touchStartPreventDefault: false, // Dozvoljava klikove na video unutar slajda bez kočenja
+                slidesPerView: 3,
+                spaceBetween: 18,
+                loop: false,
+                navigation: {
+                    nextEl: '.arrow_button2',
+                    prevEl: '.arrow_button1',
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                breakpoints: {
+                    0: {
+                        slidesPerView: 1,
+                    },
+                    586: {
+                        slidesPerView: 2,
+                    },
+                    1320: {
+                        slidesPerView: 3,
+                    },
+                },
+            });
+        });
+    </script>
 </body>
 
 </html>
